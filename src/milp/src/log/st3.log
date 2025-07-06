@@ -1,0 +1,419 @@
+
+Gurobi 12.0.0 (linux64) logging started Sun Dec  8 00:12:39 2024
+
+Set parameter LogFile to value "log/st3.log"
+Set parameter MIPFocus to value 1
+Set parameter TimeLimit to value 30
+Gurobi Optimizer version 12.0.0 build v12.0.0rc1 (linux64 - "Ubuntu 20.04.6 LTS")
+
+CPU model: AMD Ryzen 7 5700U with Radeon Graphics, instruction set [SSE2|AVX|AVX2]
+Thread count: 8 physical cores, 16 logical processors, using up to 16 threads
+
+Non-default parameters:
+TimeLimit  30
+MIPFocus  1
+
+Optimize a model with 2844 rows, 18612 columns and 4500 nonzeros
+Model fingerprint: 0x696fd9cf
+Model has 17892 simple general constraints
+  2556 OR, 15336 INDICATOR
+Variable types: 216 continuous, 18396 integer (18396 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+02]
+  Objective range  [8e+01, 1e+02]
+  Bounds range     [1e+00, 3e+02]
+  RHS range        [1e+00, 3e+02]
+  GenCon coe range [1e+00, 1e+02]
+Presolve added 15336 rows and 0 columns
+Presolve removed 0 rows and 2596 columns
+Presolve time: 0.69s
+Presolved: 18180 rows, 16016 columns, 156706 nonzeros
+Variable types: 216 continuous, 15800 integer (15800 binary)
+Deterministic concurrent LP optimizer: primal and dual simplex
+Showing primal log only...
+
+Concurrent spin time: 0.00s
+
+Solved with dual simplex
+
+Root relaxation: objective 0.000000e+00, 17636 iterations, 0.75 seconds (0.48 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0    0.00000    0  272          -    0.00000      -     -    1s
+     0     0    0.00000    0  996          -    0.00000      -     -    2s
+     0     0    0.00000    0  978          -    0.00000      -     -    2s
+     0     0    0.00000    0  242          -    0.00000      -     -    4s
+     0     0    0.00000    0  237          -    0.00000      -     -    4s
+     0     0    0.00000    0  339          -    0.00000      -     -    5s
+     0     0    0.00000    0  310          -    0.00000      -     -    5s
+     0     0    0.00000    0  248          -    0.00000      -     -    6s
+     0     0    0.00000    0  238          -    0.00000      -     -    7s
+     0     0    0.00000    0  249          -    0.00000      -     -    7s
+     0     2    0.00000    0  211          -    0.00000      -     -   11s
+  1251  1494    0.00000   71  398          -    0.00000      -  29.4   16s
+  2548  2646    0.00000  211  452          -    0.00000      -  42.1   20s
+  4436  3957    0.00000  411  426          -    0.00000      -  43.0   25s
+
+Explored 5855 nodes (290841 simplex iterations) in 30.00 seconds (22.01 work units)
+Thread count was 16 (of 16 available processors)
+
+Solution count 0
+
+Time limit reached
+Best objective -, best bound 0.000000000000e+00, gap -
+
+Gurobi 12.0.0 (linux64) logging started Sun Dec  8 00:18:35 2024
+
+Set parameter LogFile to value "log/st3.log"
+Set parameter MIPFocus to value 1
+Set parameter TimeLimit to value 30
+Gurobi Optimizer version 12.0.0 build v12.0.0rc1 (linux64 - "Ubuntu 20.04.6 LTS")
+
+CPU model: AMD Ryzen 7 5700U with Radeon Graphics, instruction set [SSE2|AVX|AVX2]
+Thread count: 8 physical cores, 16 logical processors, using up to 16 threads
+
+Non-default parameters:
+TimeLimit  30
+MIPFocus  1
+
+Optimize a model with 2550 rows, 16626 columns and 4114 nonzeros
+Model fingerprint: 0x0c7e8669
+Model has 15946 simple general constraints
+  2278 OR, 13668 INDICATOR
+Variable types: 204 continuous, 16422 integer (16422 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+02]
+  Objective range  [8e+01, 1e+02]
+  Bounds range     [1e+00, 3e+02]
+  RHS range        [1e+00, 3e+02]
+  GenCon coe range [1e+00, 1e+02]
+Presolve added 13668 rows and 0 columns
+Presolve removed 0 rows and 2323 columns
+Presolve time: 0.57s
+Presolved: 16218 rows, 14303 columns, 137996 nonzeros
+Variable types: 204 continuous, 14099 integer (14099 binary)
+Deterministic concurrent LP optimizer: primal and dual simplex
+Showing primal log only...
+
+Concurrent spin time: 0.00s
+
+Solved with dual simplex
+
+Root relaxation: objective 0.000000e+00, 15442 iterations, 0.59 seconds (0.39 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0    0.00000    0  218          -    0.00000      -     -    1s
+H    0     0                    4079.0000000    0.00000   100%     -    1s
+     0     0    0.00000    0  831 4079.00000    0.00000   100%     -    1s
+     0     0    0.00000    0  776 4079.00000    0.00000   100%     -    2s
+     0     0    0.00000    0  225 4079.00000    0.00000   100%     -    3s
+     0     0    0.00000    0  253 4079.00000    0.00000   100%     -    3s
+     0     0    0.00000    0  181 4079.00000    0.00000   100%     -    4s
+     0     0    0.00000    0  182 4079.00000    0.00000   100%     -    4s
+     0     0    0.00000    0  230 4079.00000    0.00000   100%     -    5s
+     0     0    0.00000    0  210 4079.00000    0.00000   100%     -    5s
+     0     0    0.00000    0  213 4079.00000    0.00000   100%     -    5s
+     0     2    0.00000    0  172 4079.00000    0.00000   100%     -    6s
+   309   448    0.00000   37  286 4079.00000    0.00000   100%  23.8   11s
+   447   456    0.00000   38  279 4079.00000    0.00000   100%  19.2   15s
+   463   473    0.00000   40  278 4079.00000    0.00000   100%  19.0   22s
+   472   481    0.00000   41  288 4079.00000    0.00000   100%  18.8   26s
+   480   517    0.00000   42  290 4079.00000    0.00000   100%  18.6   30s
+
+Cutting planes:
+  Gomory: 2
+  MIR: 31
+  GUB cover: 30
+  Relax-and-lift: 2
+
+Explored 516 nodes (53602 simplex iterations) in 30.02 seconds (26.87 work units)
+Thread count was 16 (of 16 available processors)
+
+Solution count 1: 4079 
+
+Time limit reached
+Best objective 4.079000000000e+03, best bound 0.000000000000e+00, gap 100.0000%
+
+Gurobi 12.0.0 (linux64) logging started Sun Dec  8 01:14:51 2024
+
+Set parameter LogFile to value "log/st3.log"
+Set parameter MIPFocus to value 1
+Set parameter TimeLimit to value 10
+Gurobi Optimizer version 12.0.0 build v12.0.0rc1 (linux64 - "Ubuntu 20.04.6 LTS")
+
+CPU model: AMD Ryzen 7 5700U with Radeon Graphics, instruction set [SSE2|AVX|AVX2]
+Thread count: 8 physical cores, 16 logical processors, using up to 16 threads
+
+Non-default parameters:
+TimeLimit  10
+MIPFocus  1
+
+Optimize a model with 3397 rows, 22357 columns and 5214 nonzeros
+Model fingerprint: 0x30a7d952
+Model has 21567 simple general constraints
+  3081 OR, 18486 INDICATOR
+Variable types: 237 continuous, 22120 integer (22120 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+02]
+  Objective range  [9e+01, 1e+02]
+  Bounds range     [1e+00, 3e+02]
+  RHS range        [1e+00, 3e+02]
+  GenCon coe range [1e+00, 1e+02]
+Presolve added 18486 rows and 0 columns
+Presolve removed 0 rows and 3134 columns
+Presolve time: 0.63s
+Presolved: 21883 rows, 19223 columns, 187107 nonzeros
+Variable types: 237 continuous, 18986 integer (18986 binary)
+Performing another presolve...
+Presolve time: 0.28s
+Deterministic concurrent LP optimizer: primal and dual simplex
+Showing primal log only...
+
+Concurrent spin time: 0.00s
+
+Solved with dual simplex
+
+Root relaxation: objective 0.000000e+00, 21224 iterations, 0.85 seconds (0.60 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0    0.00000    0  467          -    0.00000      -     -    2s
+     0     0    0.00000    0 1189          -    0.00000      -     -    3s
+     0     0    0.00000    0 1085          -    0.00000      -     -    3s
+     0     0    0.00000    0  441          -    0.00000      -     -    5s
+     0     0    0.00000    0  431          -    0.00000      -     -    6s
+     0     0    0.00000    0  372          -    0.00000      -     -    7s
+     0     0    0.00000    0  361          -    0.00000      -     -    7s
+     0     0    0.00000    0  430          -    0.00000      -     -    8s
+     0     0    0.00000    0  412          -    0.00000      -     -    8s
+     0     0    0.00000    0  402          -    0.00000      -     -    9s
+
+Cutting planes:
+  Implied bound: 2
+  MIR: 11
+  GUB cover: 15
+
+Explored 1 nodes (63290 simplex iterations) in 10.00 seconds (7.50 work units)
+Thread count was 16 (of 16 available processors)
+
+Solution count 0
+
+Time limit reached
+Best objective -, best bound 0.000000000000e+00, gap -
+
+Gurobi 12.0.0 (linux64) logging started Sun Dec  8 01:17:02 2024
+
+Set parameter LogFile to value "log/st3.log"
+Set parameter MIPFocus to value 1
+Set parameter TimeLimit to value 10
+Gurobi Optimizer version 12.0.0 build v12.0.0rc1 (linux64 - "Ubuntu 20.04.6 LTS")
+
+CPU model: AMD Ryzen 7 5700U with Radeon Graphics, instruction set [SSE2|AVX|AVX2]
+Thread count: 8 physical cores, 16 logical processors, using up to 16 threads
+
+Non-default parameters:
+TimeLimit  10
+MIPFocus  1
+
+Optimize a model with 3154 rows, 20710 columns and 4902 nonzeros
+Model fingerprint: 0x84353fec
+Model has 19950 simple general constraints
+  2850 OR, 17100 INDICATOR
+Variable types: 228 continuous, 20482 integer (20482 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+02]
+  Objective range  [1e+02, 2e+02]
+  Bounds range     [1e+00, 3e+02]
+  RHS range        [1e+00, 3e+02]
+  GenCon coe range [1e+00, 1e+02]
+Presolve added 17100 rows and 0 columns
+Presolve removed 0 rows and 2900 columns
+Presolve time: 0.64s
+Presolved: 20254 rows, 17810 columns, 173160 nonzeros
+Variable types: 228 continuous, 17582 integer (17582 binary)
+Performing another presolve...
+Presolve time: 0.27s
+Deterministic concurrent LP optimizer: primal and dual simplex
+Showing primal log only...
+
+Concurrent spin time: 0.00s
+
+Solved with dual simplex
+
+Root relaxation: objective 0.000000e+00, 19980 iterations, 0.99 seconds (0.58 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0    0.00000    0  303          -    0.00000      -     -    2s
+     0     0    0.00000    0  924          -    0.00000      -     -    3s
+     0     0    0.00000    0  864          -    0.00000      -     -    3s
+     0     0    0.00000    0  312          -    0.00000      -     -    5s
+     0     0    0.00000    0  313          -    0.00000      -     -    5s
+     0     0    0.00000    0  309          -    0.00000      -     -    6s
+     0     0    0.00000    0  300          -    0.00000      -     -    7s
+     0     0    0.00000    0  369          -    0.00000      -     -    8s
+     0     0    0.00000    0  359          -    0.00000      -     -    8s
+     0     0    0.00000    0  325          -    0.00000      -     -    9s
+
+Cutting planes:
+  Gomory: 4
+  Implied bound: 2
+  MIR: 13
+  GUB cover: 5
+  Relax-and-lift: 1
+
+Explored 1 nodes (60341 simplex iterations) in 10.00 seconds (7.05 work units)
+Thread count was 16 (of 16 available processors)
+
+Solution count 0
+
+Time limit reached
+Best objective -, best bound 0.000000000000e+00, gap -
+
+Gurobi 12.0.0 (linux64) logging started Sun Dec  8 01:25:35 2024
+
+Set parameter LogFile to value "log/st3.log"
+Set parameter MIPFocus to value 1
+Set parameter TimeLimit to value 10
+Gurobi Optimizer version 12.0.0 build v12.0.0rc1 (linux64 - "Ubuntu 20.04.6 LTS")
+
+CPU model: AMD Ryzen 7 5700U with Radeon Graphics, instruction set [SSE2|AVX|AVX2]
+Thread count: 8 physical cores, 16 logical processors, using up to 16 threads
+
+Non-default parameters:
+TimeLimit  10
+MIPFocus  1
+
+Optimize a model with 3397 rows, 22357 columns and 5214 nonzeros
+Model fingerprint: 0x0e565fcd
+Model has 21567 simple general constraints
+  3081 OR, 18486 INDICATOR
+Variable types: 237 continuous, 22120 integer (22120 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+02]
+  Objective range  [8e+01, 1e+02]
+  Bounds range     [1e+00, 3e+02]
+  RHS range        [1e+00, 3e+02]
+  GenCon coe range [1e+00, 1e+02]
+Presolve added 18486 rows and 0 columns
+Presolve removed 0 rows and 3134 columns
+Presolve time: 0.65s
+Presolved: 21883 rows, 19223 columns, 187110 nonzeros
+Variable types: 237 continuous, 18986 integer (18986 binary)
+Performing another presolve...
+Presolve time: 0.26s
+Deterministic concurrent LP optimizer: primal and dual simplex
+Showing primal log only...
+
+Concurrent spin time: 0.00s
+
+Solved with dual simplex
+
+Root relaxation: objective 0.000000e+00, 21431 iterations, 1.19 seconds (0.61 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0    0.00000    0  333          -    0.00000      -     -    2s
+     0     0    0.00000    0  885          -    0.00000      -     -    3s
+     0     0    0.00000    0  808          -    0.00000      -     -    3s
+     0     0    0.00000    0  378          -    0.00000      -     -    5s
+     0     0    0.00000    0  373          -    0.00000      -     -    5s
+     0     0    0.00000    0  358          -    0.00000      -     -    7s
+     0     0    0.00000    0  356          -    0.00000      -     -    7s
+     0     0    0.00000    0  348          -    0.00000      -     -    8s
+     0     0    0.00000    0  349          -    0.00000      -     -    8s
+     0     0    0.00000    0  363          -    0.00000      -     -    9s
+
+Cutting planes:
+  Implied bound: 2
+  MIR: 15
+  GUB cover: 4
+  Relax-and-lift: 2
+
+Explored 1 nodes (63304 simplex iterations) in 10.00 seconds (7.23 work units)
+Thread count was 16 (of 16 available processors)
+
+Solution count 0
+
+Time limit reached
+Best objective -, best bound 0.000000000000e+00, gap -
+
+Gurobi 12.0.0 (linux64) logging started Sun Dec  8 01:28:58 2024
+
+Set parameter LogFile to value "log/st3.log"
+Set parameter MIPFocus to value 1
+Set parameter TimeLimit to value 30
+Gurobi Optimizer version 12.0.0 build v12.0.0rc1 (linux64 - "Ubuntu 20.04.6 LTS")
+
+CPU model: AMD Ryzen 7 5700U with Radeon Graphics, instruction set [SSE2|AVX|AVX2]
+Thread count: 8 physical cores, 16 logical processors, using up to 16 threads
+
+Non-default parameters:
+TimeLimit  30
+MIPFocus  1
+
+Optimize a model with 2479 rows, 16147 columns and 4020 nonzeros
+Model fingerprint: 0x53333241
+Model has 15477 simple general constraints
+  2211 OR, 13266 INDICATOR
+Variable types: 201 continuous, 15946 integer (15946 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+02]
+  Objective range  [8e+01, 1e+02]
+  Bounds range     [1e+00, 3e+02]
+  RHS range        [1e+00, 3e+02]
+  GenCon coe range [1e+00, 1e+02]
+Presolve added 13266 rows and 0 columns
+Presolve removed 0 rows and 2243 columns
+Presolve time: 0.55s
+Presolved: 15745 rows, 13904 columns, 136377 nonzeros
+Variable types: 201 continuous, 13703 integer (13703 binary)
+Deterministic concurrent LP optimizer: primal and dual simplex
+Showing primal log only...
+
+Concurrent spin time: 0.00s
+
+Solved with dual simplex
+
+Root relaxation: objective 0.000000e+00, 15192 iterations, 0.57 seconds (0.39 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0    0.00000    0  230          -    0.00000      -     -    1s
+     0     0    0.00000    0  545          -    0.00000      -     -    1s
+     0     0    0.00000    0  561          -    0.00000      -     -    2s
+     0     0    0.00000    0  250          -    0.00000      -     -    3s
+     0     0    0.00000    0  217          -    0.00000      -     -    4s
+     0     0    0.00000    0  213          -    0.00000      -     -    4s
+     0     0    0.00000    0  216          -    0.00000      -     -    5s
+     0     0    0.00000    0  208          -    0.00000      -     -    5s
+     0     0    0.00000    0  246          -    0.00000      -     -    6s
+H    0     0                    3980.0000000    0.00000   100%     -    6s
+     0     2    0.00000    0  204 3980.00000    0.00000   100%     -    7s
+   268   473    0.00000   37  334 3980.00000    0.00000   100%  28.5   11s
+   480   503    0.00000   39  336 3980.00000    0.00000   100%  31.0   17s
+   502   541    0.00000   40  338 3980.00000    0.00000   100%  29.9   21s
+   540   549    0.00000   41  338 3980.00000    0.00000   100%  28.7   26s
+   548   643    0.00000   42  344 3980.00000    0.00000   100%  28.4   30s
+
+Cutting planes:
+  Cover: 2
+  MIR: 52
+  GUB cover: 68
+  Relax-and-lift: 3
+
+Explored 642 nodes (64306 simplex iterations) in 30.01 seconds (28.72 work units)
+Thread count was 16 (of 16 available processors)
+
+Solution count 1: 3980 
+
+Time limit reached
+Best objective 3.980000000000e+03, best bound 0.000000000000e+00, gap 100.0000%
